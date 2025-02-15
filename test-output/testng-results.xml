@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-15T17:03:28Z" name="Suite" finished-at="2025-02-15T17:03:42Z" duration-ms="14551">
+    <groups>
+    </groups>
+    <test started-at="2025-02-15T17:03:28Z" name="AndroidTest" finished-at="2025-02-15T17:03:42Z" duration-ms="14551">
+      <class name="com.w2a.android.testcases.LoginTests">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.w2a.android.testcases.LoginTests@7b227d8d]" started-at="2025-02-15T22:33:28Z" name="beforeTest" finished-at="2025-02-15T22:33:36Z" duration-ms="8801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setBeforeMethod(java.lang.reflect.Method)[pri:0, instance:com.w2a.android.testcases.LoginTests@7b227d8d]" started-at="2025-02-15T22:33:37Z" name="setBeforeMethod" finished-at="2025-02-15T22:33:37Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.w2a.android.testcases.LoginTests.loginTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBeforeMethod -->
+        <test-method signature="loginTest()[pri:0, instance:com.w2a.android.testcases.LoginTests@7b227d8d]" started-at="2025-02-15T22:33:37Z" name="loginTest" finished-at="2025-02-15T22:33:42Z" duration-ms="5550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.w2a.android.testcases.LoginTests@7b227d8d]" started-at="2025-02-15T22:33:42Z" name="afterTest" finished-at="2025-02-15T22:33:42Z" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.w2a.android.testcases.LoginTests -->
+    </test> <!-- AndroidTest -->
+  </suite> <!-- Suite -->
+</testng-results>

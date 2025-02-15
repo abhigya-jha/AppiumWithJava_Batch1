@@ -1,0 +1,16 @@
+{
+	"validUsername": "standard_user",
+	"validPassword": "secret_sauce",
+	"invalidUsername": "standard_usertttt",
+	"invalidPassword": "secret_sauceeeee",
+	"tech": [
+		{
+			"ui": "selenium",
+			"framework": "testng"
+		},
+		{
+			"ui": "appium",
+			"framework": "cucumber"
+		}
+	]
+}

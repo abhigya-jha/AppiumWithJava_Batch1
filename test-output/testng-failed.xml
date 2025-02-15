@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.w2a.Utilities.TestListners"/>
+  </listeners>
+  <test name="AndroidTest(failed)">
+    <parameter name="platform" value="android"/>
+    <classes>
+      <class name="com.w2a.android.testcases.LoginTests">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="setBeforeMethod"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.w2a.android.testcases.LoginTests -->
+    </classes>
+  </test> <!-- AndroidTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
