@@ -15,7 +15,7 @@ public class LoginTests extends TestSetUP {
 	public void loginTest() throws InterruptedException {
 		
 		LoginPage login = new LoginPage();
-		System.out.println("hi");
+		System.out.println("hiii");
 		login.enteruserName("standard_user");
 		login.enterPassword("secret_sauce");
 		ProductPage product=login.clickLoginButton();
